@@ -1,9 +1,10 @@
-name: Tweet new RSS Feed items FWTV	
+name: Tweet new RSS Feed items IEP	
 on:
   rss:
     url: 
-      - http://www.focus-wtv.be/feed/kortrijk/rss.xml
-      - http://www.nieuwsblad.be/rss/section/bf9eeee6-51e0-49e8-ad4a-791dcc2f63ae?intro=1
+      - https://www.ieper.be/rss-nieuws
+      - http://www.focus-wtv.be/feed/ieper/rss.xml
+      - http://www.nieuwsblad.be/rss/section/c5725cef-a08a-46ee-8c06-7641519ca5f0?intro=1
 jobs:
   twitter:
     name: Post a tweet
