@@ -1,10 +1,8 @@
-name: Tweet new RSS Feed items IEP	
+name: Tweet new RSS Feed items IEP_FWTV
 on:
   rss:
     url: 
-      - https://www.ieper.be/rss-nieuws
       - http://www.focus-wtv.be/feed/ieper/rss.xml
-      - http://www.nieuwsblad.be/rss/section/c5725cef-a08a-46ee-8c06-7641519ca5f0?intro=1
 jobs:
   twitter:
     name: Post a tweet
