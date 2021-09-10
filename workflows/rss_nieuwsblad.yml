@@ -1,4 +1,4 @@
-name: Tweet new RSS Feed items IEP NIEUWSBL
+name: Tweet new RSS Feed items IEP_NIEUWSBL
 on:
   rss:
     url: 
