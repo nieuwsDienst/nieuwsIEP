@@ -2,7 +2,7 @@ name: Tweet new RSS Feed items IEP_FWTV
 on:
   rss:
     url: 
-      - http://www.focus-wtv.be/feed/ieper/rss.xml
+      # - http://www.focus-wtv.be/feed/ieper/rss.xml
 jobs:
   twitter:
     name: Post a tweet
